@@ -16,6 +16,19 @@ The first step of this project is to collect the data. In order to do so, the di
 The event generated 197 track points, it lasted for three minutes thirty seconds, averaging in 1 data point per second. With all these points the last stage was to graph them and create a mathematical function in order to get the go on with the next stages.
 Using the framework node.js, it was possible to convert the file given by the Fitbit system (extension .tcx) to JSON (JavaScript Object Notation). So after converting the data to JSON, it was time to graph it (picture 1), using css, html, javascript, and Chart.js.
 
+#### File Tree:
+overview: You will find the files generated (.json) after the calculations and a .html page where you can find a graph rendering these files.
+
+regression: You will find the two versions of the code used to generate the final output, main.py being the algorithm used to render the final result, and main_2.py being the code used initially.
+
+picture: folder with the picture to these README.md.
+
+server.js: file used to start a express server that will show the 'overview' page
+
+52003519931.tcx: file colleted from the Fitbit with the data.
+
+
+
 ![alt text](https://github.com/samupp2758/calculus1_final_project/blob/master/picture/f1.png?raw=true)
 Graph generated with the data collected from the Fitbit (Figure 1)
 
