@@ -29,7 +29,7 @@ server.js: file used to start a express server that will show the 'overview' pag
 
 
 
-![alt text](https://github.com/samupp2758/calculus1_final_project/blob/master/picture/f1.png?raw=true =10x2)
+![alt text](https://github.com/samupp2758/calculus1_final_project/blob/master/picture/f1.png)
 Graph generated with the data collected from the Fitbit (Figure 1)
 
 Now, to create a valid mathematical function, it will be necessary to use a regression equation. There are a lot of different ways to come up with a function, the first one tried was the Linear Regression method, that utilizes the method: f(x) = mx + b, that means that the software will try to find the best fit for variable m and for variable b, both of them being real numbers. The down-side with the linear regression equation is the constant growth that it has, not serving really well the ups and downs in slope created by a different method.
